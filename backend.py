@@ -2,7 +2,6 @@
 #Required backend packages
 from __future__ import print_function
 import psutil
-import os
 import json
 
 
@@ -30,3 +29,6 @@ def getLocalCPUlevels():
 
 CPU_data = getLocalCPUlevels()
 print (json.dumps(CPU_data))
+
+def getApacheLogs():
+    return 'OK'
