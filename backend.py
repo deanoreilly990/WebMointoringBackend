@@ -3,30 +3,30 @@
 from __future__ import print_function
 import psutil
 import os
+import json
 
 
 def getLocalCPUlevels():
-
-    print (psutil.__version__)
-    print(psutil.cpu_percent(interval=None))
+    #CPU data returned in JSON
+    #Memory Stats in MB
+    data={}
     MemoryUsage=psutil.virtual_memory()
-    print(MemoryUsage)
-    pid = os.getpid()
-    py = psutil.Process(pid)
-    memoryUse = py.memory_info()[0] / 2. ** 30  # memory use in GB...I think
-    print('memory use:', memoryUse)
     THRESHOLD = 100 * 1024 * 1024
-    CPUusage = MemoryUsage.available >> 30
-    CPUTotal = MemoryUsage.total >>30
-    CPUused = MemoryUsage.used >>30
-
+    CPUAvail = MemoryUsage.available >> 20
+    CPUTotal = MemoryUsage.total >>10
+    CPUused = MemoryUsage.used >>20
     if MemoryUsage.available <= THRESHOLD:
-        print ('Warning Treshold Met')
+        data['CPU Available'] = CPUAvail
+        data['CPU Total'] = CPUTotal
+        data['CPU Used'] = CPUused
+        data ['CPU Message'] = 'FAIL'
+        return data
     else:
-        print('Memory Usage Free :',CPUusage, 'GB')
-        print('Memery Total:',CPUTotal)
-        print('Memory Used',CPUused)
+        data['CPU Available'] = CPUAvail
+        data['CPU Total'] = CPUTotal
+        data['CPU Used'] = CPUused
+        data['CPU Message'] = 'OK'
+        return data
 
-
-
-getLocalCPUlevels()
+CPU_data = getLocalCPUlevels()
+print (json.dumps(CPU_data))
