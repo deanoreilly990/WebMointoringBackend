@@ -1,0 +1,8 @@
+{
+  "twilio": {
+    "accessKey": "",
+    "secretKey": "",
+    "outboundNumber": "+",
+    "TwilioNumber": "+"
+  }
+}

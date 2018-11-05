@@ -15,4 +15,5 @@ def main():
     print 'Main - ok'
 
 
-main()
+if __name__ == '__main__':
+    main()
