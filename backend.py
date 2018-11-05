@@ -4,6 +4,12 @@ from __future__ import print_function
 import psutil
 import json
 
+def alert():
+    #This function is used to send instant notifications to the endpoint selected.
+    #The details for this endpoint are configured in the UserConsole.
+    #The data is stored in a local encypted file.
+
+
 
 def getLocalCPUlevels():
     #CPU data returned in JSON
@@ -15,6 +21,7 @@ def getLocalCPUlevels():
     CPUTotal = MemoryUsage.total >>10
     CPUused = MemoryUsage.used >>20
     if MemoryUsage.available <= THRESHOLD:
+        alert()
         data['CPU Available'] = CPUAvail
         data['CPU Total'] = CPUTotal
         data['CPU Used'] = CPUused
