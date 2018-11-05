@@ -10,7 +10,7 @@ import psutil
 def alert():
     #This function is used to send instant notifications to the endpoint selected.
     #The details for this endpoint are configured in the UserConsole.
-    # The data is stored in a local encypted file.d
+    # The data is stored in a local encypted file.dd
     print('alert')
 
 
