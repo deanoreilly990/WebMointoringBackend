@@ -30,6 +30,7 @@ def getLocalCPUlevels():
         data['CPU Used'] = CPUused
         data ['CPU Message'] = 'FAIL'
         logger.debug(data)
+        alert()
         return data
     else:
         data['CPU Available'] = CPUAvail
@@ -37,7 +38,6 @@ def getLocalCPUlevels():
         data['CPU Used'] = CPUused
         data['CPU Message'] = 'OK'
         logger.debug(data)
-        alert()
         return data
 def getApacheLogs():
     return 'OK'
