@@ -1,8 +1,5 @@
 #Backend processing for the mointoring tool
 #Required backend packages
-from __future__ import print_function
-
-import json
 
 import psutil
 
@@ -16,7 +13,8 @@ def alert():
 
 
 def getLocalCPUlevels():
-    #CPU data returned in JSON
+    from controller import logger_Global
+    logger = logger_Global()  # CPU data returned in JSON
     #Memory Stats in MB
     data={}
     MemoryUsage=psutil.virtual_memory()
@@ -30,16 +28,20 @@ def getLocalCPUlevels():
         data['CPU Total'] = CPUTotal
         data['CPU Used'] = CPUused
         data ['CPU Message'] = 'FAIL'
+        logger.debug(data)
+
         return data
     else:
         data['CPU Available'] = CPUAvail
         data['CPU Total'] = CPUTotal
         data['CPU Used'] = CPUused
         data['CPU Message'] = 'OK'
+        logger.debug(data)
+
         return data
 
-CPU_data = getLocalCPUlevels()
-print (json.dumps(CPU_data))
+
+#print (json.dumps(CPU_data))
 
 def getApacheLogs():
     return 'OK'
