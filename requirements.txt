@@ -3,3 +3,5 @@ import json
 import twilo -- https://github.com/twilio/twilio-python
 
 import flask api- https://www.flaskapi.org/
+
+import flask-cors -- https://flask-cors.readthedocs.io/en/latest/

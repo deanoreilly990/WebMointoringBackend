@@ -1,0 +1,8 @@
+{
+  "twilio": {
+    "accessKey": "ACed40bb74aff38e88268a69384af8cd38",
+    "secretKey": "a626719f8750e7043c8b4211d5d942bf",
+    "outboundNumber": "+353858171358",
+    "TwilioNumber": "+15025631304"
+  }
+}

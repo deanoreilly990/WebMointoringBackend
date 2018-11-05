@@ -12,11 +12,29 @@ def alert():
     EmergencyMesage = 'Emegency in place. CPU hitting treshold.'
     sendEmergencyMessage(EmergencyMesage)
 
-def getLocalCPUlevels():
+
+def returnSampleData():
+    # Used to return sample data to front end to
     from controller import logger_Global
     logger = logger_Global()
+    data = {}
+    data['SUN'] = '0.1'
+    data['MON'] = '0.2'
+    data['TUE'] = '0.8'
+    data['WED'] = '0.4'
+    data['THU'] = '0.7'
+    data['FRI'] = '0.2'
+    data['SAT'] = '0.6'
+    # data['Access-Control-Allow-Origin'] ='*'
+    logger.info(data)
+    return data
+
+
+def getLocalCPUlevels():
     # CPU data returned in JSON
     # Memory Stats in MB
+    from controller import logger_Global
+    logger = logger_Global()
     data={}
     MemoryUsage=psutil.virtual_memory()
     THRESHOLD = 100 * 1024 * 1024
@@ -38,6 +56,7 @@ def getLocalCPUlevels():
         data['CPU Used'] = CPUused
         data['CPU Message'] = 'OK'
         logger.debug(data)
+        data = returnSampleData()  # Sample Data - Remove if needed
         return data
 def getApacheLogs():
     return 'OK'
