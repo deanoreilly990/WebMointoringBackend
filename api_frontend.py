@@ -4,11 +4,14 @@
 
 # flask/bin/python
 from flask import Flask
-from flask_cors import CORS, cross_origin
+from flask import jsonify
+from flask_cors import cross_origin
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-app.config['CORS_HEADERS'] = 'Content-Type'
+
+
+# cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+# app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 
@@ -19,14 +22,12 @@ def index():
 
 
 @app.route('/update')
-#@cross_origin()
+@cross_origin()
 def example():
     from backend import getLocalCPUlevels
-    response = {}
-    # response["Access-Control-Allow-Origin"]="*"
     data = getLocalCPUlevels()
-    response["data"] = data
-    return response
+    print data
+    return jsonify(data)
 
 
 if __name__ == '__main__':
