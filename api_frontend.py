@@ -1,21 +1,25 @@
 #Wait for the API calls - send back JSON object --
 # This module will primarly use FlaskAPI to handle request for up to date data.
+## API Backend updated to use default flask and not flaskAPI
 
-from flask_api import FlaskAPI
-from flask_cors import CORS
+# flask/bin/python
+from flask import Flask
+from flask_cors import CORS, cross_origin
 
+app = Flask(__name__)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+app.config['CORS_HEADERS'] = 'Content-Type'
 
-
-app = FlaskAPI(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 @app.route('/')
-def route():
-    return {'Status': 'OK'}
+@cross_origin()
+def index():
+    return "Hello, World!"
 
 
-@app.route('/update/')
+@app.route('/update')
+#@cross_origin()
 def example():
     from backend import getLocalCPUlevels
     response = {}
@@ -25,5 +29,5 @@ def example():
     return response
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)

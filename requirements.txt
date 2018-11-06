@@ -2,6 +2,8 @@ import psutil
 import json
 import twilo -- https://github.com/twilio/twilio-python
 
-import flask api- https://www.flaskapi.org/
+import flask api- https://www.flaskapi.org/ -- removed
 
 import flask-cors -- https://flask-cors.readthedocs.io/en/latest/
+
+import flask -- https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
