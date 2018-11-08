@@ -19,13 +19,12 @@ def returnSampleData():
     logger = logger_Global()
     data = {}
     data['SUN'] = '0.1'
-    data['MON'] = '0.2'
+    data['MON'] = '0.3'
     data['TUE'] = '0.8'
     data['WED'] = '0.4'
     data['THU'] = '0.7'
-    data['FRI'] = '0.2'
-    data['SAT'] = '0.6'
-    # data['Access-Control-Allow-Origin'] ='*'
+    data['FRI'] = '0.8'
+    data['SAT'] = '0.9'
     logger.info(data)
     return data
 
