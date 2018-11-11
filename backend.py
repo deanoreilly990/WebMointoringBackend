@@ -25,13 +25,27 @@ def returnSampleData():
     data['THU'] = '0.7'
     data['FRI'] = '0.8'
     data['SAT'] = '0.9'
-    logger.info(data)
-    return data
+
+    dataToReturn = {}
+    dataToReturn['CPU'] = data
+    dataToReturn['Health'] = 'Healthy'
+    CPUdata = {}
+    total = 4000
+    used = 2053
+    unused = total - 2053
+    # CPUdata['Total'] = total
+    CPUdata['Used MB'] = used
+    CPUdata['UnUsed MB'] = unused
+
+    dataToReturn['CPUcurrent'] = CPUdata
+    logger.info(dataToReturn)
+    return dataToReturn
 
 
 def getLocalCPUlevels():
-    # CPU data returned in JSON
-    # Memory Stats in MB
+    """CPU data returned in JSON
+    # Memory Stats in MB """
+
     from controller import logger_Global
     logger = logger_Global()
     data={}
