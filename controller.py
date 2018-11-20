@@ -15,5 +15,9 @@ def main():
     print 'Main - ok'
 
 
+def users():
+    import backend
+    return backend.return_root_log()
+
 if __name__ == '__main__':
     main()

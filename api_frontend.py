@@ -10,16 +10,10 @@ from flask_cors import cross_origin
 app = Flask(__name__)
 
 
-# cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-# app.config['CORS_HEADERS'] = 'Content-Type'
-
-
-
 @app.route('/')
 @cross_origin()
 def index():
     return "Hello, World!"
-
 
 @app.route('/update')
 @cross_origin()
@@ -30,5 +24,12 @@ def example():
     return jsonify(data)
 
 
+@app.route('/users')
+@cross_origin()
+def users():
+    import controller
+    data = controller.users()
+    return jsonify(data)
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8081)

@@ -12,7 +12,6 @@ def alert():
     EmergencyMesage = 'Emegency in place. CPU hitting treshold.'
     sendEmergencyMessage(EmergencyMesage)
 
-
 def returnSampleData():
     # Used to return sample data to front end to
     from controller import logger_Global
@@ -25,7 +24,6 @@ def returnSampleData():
     data['THU'] = '0.7'
     data['FRI'] = '0.8'
     data['SAT'] = '0.9'
-
     dataToReturn = {}
     dataToReturn['CPU'] = data
     dataToReturn['Health'] = 'Healthy'
@@ -33,7 +31,6 @@ def returnSampleData():
     total = 4000
     used = 2053
     unused = total - 2053
-    # CPUdata['Total'] = total
     CPUdata['Used MB'] = used
     CPUdata['UnUsed MB'] = unused
 
@@ -71,5 +68,36 @@ def getLocalCPUlevels():
         logger.debug(data)
         data = returnSampleData()  # Sample Data - Remove if needed
         return data
+
+
+def return_root_log():
+    """function to return the alias of logged in users"""
+    from controller import logger_Global
+    logger = logger_Global()
+    import subprocess
+    logged_in_users = subprocess.check_output("who").splitlines()
+    logger.info(logged_in_users)
+    data_to_return = {}
+    data = []
+    for i in logged_in_users:
+        a = []
+        for word in i.split():
+            a.append(word)
+        data.append(a)
+    print data
+    users = []
+    locations = []
+    times = []
+    for i in data:
+        users.append(i[0])
+        locations.append(i[1])
+        times.append(i[4])
+    data_to_return['USERS'] = users
+    data_to_return['LOCATIONS'] = locations
+    data_to_return['TIMES'] = times
+
+    logger.info(data_to_return)
+    return data_to_return
+
 def getApacheLogs():
     return 'OK'
