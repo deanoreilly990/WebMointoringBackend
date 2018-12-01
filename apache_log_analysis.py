@@ -1,0 +1,2 @@
+def ApacheLogs():
+    return 'True'
