@@ -1,0 +1,916 @@
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2982L, 'CPU Message': 'OK', 'CPU Used': 4742L}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2982L, 'CPU Message': 'OK', 'CPU Used': 4742L}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2980L, 'CPU Message': 'OK', 'CPU Used': 4744L}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2980L, 'CPU Message': 'OK', 'CPU Used': 4744L}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2712L, 'CPU Message': 'OK', 'CPU Used': 5023L}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2712L, 'CPU Message': 'OK', 'CPU Used': 5023L}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2654L, 'CPU Message': 'OK', 'CPU Used': 5082L}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2654L, 'CPU Message': 'OK', 'CPU Used': 5082L}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2649L, 'CPU Message': 'OK', 'CPU Used': 5088L}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3105L, 'CPU Message': 'OK', 'CPU Used': 4593L}
+INFO:root:Emergency Message Invoked - Emergency In Place
+INFO:root:Emegency in place. CPU hitting treshold.
+INFO:root:Client contructed TWilio - 200
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'Body': 'Emegency in place. CPU hitting treshold.', 'To': '++353858171358', 'From': '+353766205562'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json HTTP/1.1" 400 218
+INFO:twilio.http_client:POST Response: 400 {"code": 21606, "message": "The From phone number +353766205562 is not a valid, SMS-capable inbound phone number or short code for your account.", "more_info": "https://www.twilio.com/docs/errors/21606", "status": 400}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2981L, 'CPU Message': 'OK', 'CPU Used': 4834L}
+INFO:root:Emergency Message Invoked - Emergency In Place
+INFO:root:Emegency in place. CPU hitting treshold.
+INFO:root:Client contructed TWilio - 200
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'Body': 'Emegency in place. CPU hitting treshold.', 'To': '++353858171358', 'From': '+15025631304'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json HTTP/1.1" 201 843
+INFO:twilio.http_client:POST Response: 201 {"sid": "SMba8f69f538414986850597216f0ac848", "date_created": "Mon, 05 Nov 2018 17:22:49 +0000", "date_updated": "Mon, 05 Nov 2018 17:22:49 +0000", "date_sent": null, "account_sid": "ACed40bb74aff38e88268a69384af8cd38", "to": "+353858171358", "from": "+15025631304", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Emegency in place. CPU hitting treshold.", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages/SMba8f69f538414986850597216f0ac848.json", "subresource_uris": {"media": "/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages/SMba8f69f538414986850597216f0ac848/Media.json"}}
+INFO:root:<Twilio.Api.V2010.MessageInstance sid=SMba8f69f538414986850597216f0ac848 account_sid=ACed40bb74aff38e88268a69384af8cd38>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2930L, 'CPU Message': 'OK', 'CPU Used': 4809L}
+INFO:root:Emergency Message Invoked - Emergency In Place
+INFO:root:Emegency in place. CPU hitting treshold.
+INFO:root:Client contructed TWilio - 200
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2926L, 'CPU Message': 'OK', 'CPU Used': 4814L}
+INFO:root:Emergency Message Invoked - Emergency In Place
+INFO:root:Emegency in place. CPU hitting treshold.
+INFO:root:Client contructed TWilio - 200
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'Body': 'Emegency in place. CPU hitting treshold.', 'To': u'+353858171358', 'From': u'+15025631304'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json HTTP/1.1" 201 843
+INFO:twilio.http_client:POST Response: 201 {"sid": "SM46270bcd311c4b64905fbe4cec625070", "date_created": "Mon, 05 Nov 2018 17:32:39 +0000", "date_updated": "Mon, 05 Nov 2018 17:32:39 +0000", "date_sent": null, "account_sid": "ACed40bb74aff38e88268a69384af8cd38", "to": "+353858171358", "from": "+15025631304", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Emegency in place. CPU hitting treshold.", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages/SM46270bcd311c4b64905fbe4cec625070.json", "subresource_uris": {"media": "/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages/SM46270bcd311c4b64905fbe4cec625070/Media.json"}}
+INFO:root:<Twilio.Api.V2010.MessageInstance sid=SM46270bcd311c4b64905fbe4cec625070 account_sid=ACed40bb74aff38e88268a69384af8cd38>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3008L, 'CPU Message': 'OK', 'CPU Used': 4620L}
+INFO:root:Emergency Message Invoked - Emergency In Place
+INFO:root:Emegency in place. CPU hitting treshold.
+INFO:root:Client contructed TWilio - 200
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'Body': 'Emegency in place. CPU hitting treshold.', 'To': u'+353858171358', 'From': u'+15025631304'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "POST /2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages.json HTTP/1.1" 201 843
+INFO:twilio.http_client:POST Response: 201 {"sid": "SM19ea431de8664cae96fb6ccfcfd794ec", "date_created": "Mon, 05 Nov 2018 17:38:29 +0000", "date_updated": "Mon, 05 Nov 2018 17:38:29 +0000", "date_sent": null, "account_sid": "ACed40bb74aff38e88268a69384af8cd38", "to": "+353858171358", "from": "+15025631304", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Emegency in place. CPU hitting treshold.", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages/SM19ea431de8664cae96fb6ccfcfd794ec.json", "subresource_uris": {"media": "/2010-04-01/Accounts/ACed40bb74aff38e88268a69384af8cd38/Messages/SM19ea431de8664cae96fb6ccfcfd794ec/Media.json"}}
+INFO:root:<Twilio.Api.V2010.MessageInstance sid=SM19ea431de8664cae96fb6ccfcfd794ec account_sid=ACed40bb74aff38e88268a69384af8cd38>
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2376L, 'CPU Message': 'OK', 'CPU Used': 4050L}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2492L, 'CPU Message': 'OK', 'CPU Used': 4079L}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/css/prettify.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/js/jquery-1.8.1-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/css/bootstrap-tweaks.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/css/default.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/js/prettify-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:45] "GET /flask-api/static/js/default.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:46:46] "GET /flask-api/static/img/grid.png HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2298L, 'CPU Message': 'OK', 'CPU Used': 4158L}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 18:49:42] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1814L, 'CPU Message': 'OK', 'CPU Used': 3694L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:56:59] "GET /update/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:56:59] "GET /update/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:56:59] "GET /update/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:56:59] "GET /update/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:57:00] "GET /update/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:57:00] "GET /update/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:57:01] "GET /update/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1821L, 'CPU Message': 'OK', 'CPU Used': 3690L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:57:41] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:57:49] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1713L, 'CPU Message': 'OK', 'CPU Used': 3611L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 19:59:20] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1677L, 'CPU Message': 'OK', 'CPU Used': 3586L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:01:57] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:02:06] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:02:07] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1657L, 'CPU Message': 'OK', 'CPU Used': 3559L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:03:18] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:03:27] "OPTIONS / HTTP/1.1" 404 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1634L, 'CPU Message': 'OK', 'CPU Used': 3529L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:04:50] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1609L, 'CPU Message': 'OK', 'CPU Used': 3495L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:19:26] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1578L, 'CPU Message': 'OK', 'CPU Used': 3508L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:19:35] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:23:18] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:23:19] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:23:37] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:23:47] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:23:48] "OPTIONS / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:23:52] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1501L, 'CPU Message': 'OK', 'CPU Used': 3810L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:30:31] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:30:35] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:30:47] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/Library/Python/2.7/lib/python/site-packages/flask_api/response.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1664L, 'CPU Message': 'OK', 'CPU Used': 3620L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:34:59] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1684L, 'CPU Message': 'OK', 'CPU Used': 3620L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'Access-Control-Allow-Origin': '*', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:35:36] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1684L, 'CPU Message': 'OK', 'CPU Used': 3610L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:36:14] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:36:20] "OPTIONS /update HTTP/1.1" 301 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1614L, 'CPU Message': 'OK', 'CPU Used': 3593L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:36:30] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1617L, 'CPU Message': 'OK', 'CPU Used': 3579L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:36:52] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1654L, 'CPU Message': 'OK', 'CPU Used': 3593L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:40:26] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1641L, 'CPU Message': 'OK', 'CPU Used': 3591L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:40:41] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1637L, 'CPU Message': 'OK', 'CPU Used': 3591L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:40:45] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:40:53] "OPTIONS /update HTTP/1.1" 301 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1679L, 'CPU Message': 'OK', 'CPU Used': 3645L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:43:29] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:43:50] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:43:56] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/Library/Python/2.7/lib/python/site-packages/flask_api/response.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1639L, 'CPU Message': 'OK', 'CPU Used': 3598L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:47:56] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:48:56] "GET /update HTTP/1.1" 301 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1732L, 'CPU Message': 'OK', 'CPU Used': 3665L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:48:56] "GET /update/ HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1585L, 'CPU Message': 'OK', 'CPU Used': 3608L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:50:00] "GET /update/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:50:44] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:53:21] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:53:54] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:54:06] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:54:24] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:54:26] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:55:00] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:55:27] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:55:55] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2018 20:57:24] "OPTIONS /update HTTP/1.1" 301 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1816L, 'CPU Message': 'OK', 'CPU Used': 3901L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:30:58] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1810L, 'CPU Message': 'OK', 'CPU Used': 3896L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:32:22] "GET /update HTTP/1.1" 500 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1623L, 'CPU Message': 'OK', 'CPU Used': 3697L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:46:15] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:46:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:46:41] "GET /update/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:46:46] "OPTIONS /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:46:59] "OPTIONS /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:47:00] "OPTIONS /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1560L, 'CPU Message': 'OK', 'CPU Used': 3701L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:54:34] "GET /update HTTP/1.1" 500 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1536L, 'CPU Message': 'OK', 'CPU Used': 3722L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:55:23] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1571L, 'CPU Message': 'OK', 'CPU Used': 3594L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 20:58:59] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1555L, 'CPU Message': 'OK', 'CPU Used': 3620L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:01:04] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1534L, 'CPU Message': 'OK', 'CPU Used': 3614L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:02:07] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1535L, 'CPU Message': 'OK', 'CPU Used': 3622L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:03:56] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1553L, 'CPU Message': 'OK', 'CPU Used': 3602L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:04:11] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1540L, 'CPU Message': 'OK', 'CPU Used': 3603L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:04:41] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1557L, 'CPU Message': 'OK', 'CPU Used': 3624L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:04:52] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1530L, 'CPU Message': 'OK', 'CPU Used': 3633L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:06:11] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1506L, 'CPU Message': 'OK', 'CPU Used': 3576L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:09:09] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1496L, 'CPU Message': 'OK', 'CPU Used': 3566L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:13:21] "GET /update HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1571L, 'CPU Message': 'OK', 'CPU Used': 3679L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:14:52] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/api_frontend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1581L, 'CPU Message': 'OK', 'CPU Used': 3697L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:15:33] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:15:50] "OPTIONS / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:15:50] "OPTIONS /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:15:50] "GET / HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1584L, 'CPU Message': 'OK', 'CPU Used': 3708L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:15:50] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:16:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:16:38] "OPTIONS /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1536L, 'CPU Message': 'OK', 'CPU Used': 3687L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:16:39] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:18:14] "OPTIONS /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1523L, 'CPU Message': 'OK', 'CPU Used': 3676L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:18:14] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:18:54] "OPTIONS /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1528L, 'CPU Message': 'OK', 'CPU Used': 3672L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:18:54] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:20:03] "OPTIONS /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1540L, 'CPU Message': 'OK', 'CPU Used': 3692L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:20:04] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:20:39] "OPTIONS /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1501L, 'CPU Message': 'OK', 'CPU Used': 3737L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:20:39] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1581L, 'CPU Message': 'OK', 'CPU Used': 3709L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:27:50] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1587L, 'CPU Message': 'OK', 'CPU Used': 3732L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:29:38] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1595L, 'CPU Message': 'OK', 'CPU Used': 3726L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:30:12] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1598L, 'CPU Message': 'OK', 'CPU Used': 3732L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:31:28] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1601L, 'CPU Message': 'OK', 'CPU Used': 3737L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:32:16] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1575L, 'CPU Message': 'OK', 'CPU Used': 3765L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:32:36] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1599L, 'CPU Message': 'OK', 'CPU Used': 3742L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:33:15] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1601L, 'CPU Message': 'OK', 'CPU Used': 3741L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 21:34:28] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1842L, 'CPU Message': 'OK', 'CPU Used': 4009L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 22:10:28] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1706L, 'CPU Message': 'OK', 'CPU Used': 4208L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 22:12:03] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1934L, 'CPU Message': 'OK', 'CPU Used': 3975L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 22:12:43] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1917L, 'CPU Message': 'OK', 'CPU Used': 3989L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [06/Nov/2018 22:13:09] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2435L, 'CPU Message': 'OK', 'CPU Used': 4399L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 19:21:20] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2390L, 'CPU Message': 'OK', 'CPU Used': 4423L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 19:21:27] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 19:30:49] "GET / HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1791L, 'CPU Message': 'OK', 'CPU Used': 3888L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 19:42:36] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1768L, 'CPU Message': 'OK', 'CPU Used': 3897L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 19:42:40] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:47:33] "GET /update/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:58:44] "GET /update/ HTTP/1.1" 404 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1476L, 'CPU Message': 'OK', 'CPU Used': 3699L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:59:07] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1445L, 'CPU Message': 'OK', 'CPU Used': 3654L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:59:10] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1432L, 'CPU Message': 'OK', 'CPU Used': 3635L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:59:11] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1422L, 'CPU Message': 'OK', 'CPU Used': 3612L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:59:12] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1386L, 'CPU Message': 'OK', 'CPU Used': 3616L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:59:39] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1349L, 'CPU Message': 'OK', 'CPU Used': 3603L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 20:59:57] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1382L, 'CPU Message': 'OK', 'CPU Used': 3583L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:00:03] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1817L, 'CPU Message': 'OK', 'CPU Used': 4073L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:18:40] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1813L, 'CPU Message': 'OK', 'CPU Used': 4069L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:18:42] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1821L, 'CPU Message': 'OK', 'CPU Used': 4071L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:19:38] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2002L, 'CPU Message': 'OK', 'CPU Used': 4058L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:28:42] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2026L, 'CPU Message': 'OK', 'CPU Used': 4029L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:30:14] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:34:06] "GET /update/ HTTP/1.1" 404 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2008L, 'CPU Message': 'OK', 'CPU Used': 3994L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:36:18] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:39:08] "GET /update/ HTTP/1.1" 404 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1952L, 'CPU Message': 'OK', 'CPU Used': 3938L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:40:45] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1961L, 'CPU Message': 'OK', 'CPU Used': 3946L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:42:59] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1950L, 'CPU Message': 'OK', 'CPU Used': 3953L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:43:37] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1920L, 'CPU Message': 'OK', 'CPU Used': 3983L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:43:52] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1934L, 'CPU Message': 'OK', 'CPU Used': 3968L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:43:55] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2000L, 'CPU Message': 'OK', 'CPU Used': 4184L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:46:09] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1998L, 'CPU Message': 'OK', 'CPU Used': 4184L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:46:11] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2102L, 'CPU Message': 'OK', 'CPU Used': 4058L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:46:24] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2116L, 'CPU Message': 'OK', 'CPU Used': 4124L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:46:29] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2131L, 'CPU Message': 'OK', 'CPU Used': 4084L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:49:23] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2208L, 'CPU Message': 'OK', 'CPU Used': 4163L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:49:59] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2145L, 'CPU Message': 'OK', 'CPU Used': 4186L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:50:03] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2144L, 'CPU Message': 'OK', 'CPU Used': 4183L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:50:16] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2134L, 'CPU Message': 'OK', 'CPU Used': 4192L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:50:18] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2112L, 'CPU Message': 'OK', 'CPU Used': 4190L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:52:26] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2109L, 'CPU Message': 'OK', 'CPU Used': 4213L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:52:30] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2111L, 'CPU Message': 'OK', 'CPU Used': 4208L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:52:58] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2111L, 'CPU Message': 'OK', 'CPU Used': 4216L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:53:01] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2109L, 'CPU Message': 'OK', 'CPU Used': 4219L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:53:37] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2139L, 'CPU Message': 'OK', 'CPU Used': 4184L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:53:48] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2050L, 'CPU Message': 'OK', 'CPU Used': 4107L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:53:57] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1998L, 'CPU Message': 'OK', 'CPU Used': 4137L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:54:34] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2015L, 'CPU Message': 'OK', 'CPU Used': 4134L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:54:39] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2053L, 'CPU Message': 'OK', 'CPU Used': 4185L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:57:02] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2027L, 'CPU Message': 'OK', 'CPU Used': 4302L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:59:39] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2010L, 'CPU Message': 'OK', 'CPU Used': 4318L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 21:59:42] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2090L, 'CPU Message': 'OK', 'CPU Used': 4224L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:01:15] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2164L, 'CPU Message': 'OK', 'CPU Used': 4209L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:02:06] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2075L, 'CPU Message': 'OK', 'CPU Used': 4329L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:02:22] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2122L, 'CPU Message': 'OK', 'CPU Used': 4263L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:03:14] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2112L, 'CPU Message': 'OK', 'CPU Used': 4272L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:03:17] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2105L, 'CPU Message': 'OK', 'CPU Used': 4278L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:03:22] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2040L, 'CPU Message': 'OK', 'CPU Used': 4343L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:03:24] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2085L, 'CPU Message': 'OK', 'CPU Used': 4296L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:03:42] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2037L, 'CPU Message': 'OK', 'CPU Used': 4343L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:03:45] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2099L, 'CPU Message': 'OK', 'CPU Used': 4278L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:04:06] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2071L, 'CPU Message': 'OK', 'CPU Used': 4302L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:04:38] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2050L, 'CPU Message': 'OK', 'CPU Used': 4318L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:05:12] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2024L, 'CPU Message': 'OK', 'CPU Used': 4341L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:05:25] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2039L, 'CPU Message': 'OK', 'CPU Used': 4326L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:05:46] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2029L, 'CPU Message': 'OK', 'CPU Used': 4336L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:05:56] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2106L, 'CPU Message': 'OK', 'CPU Used': 4260L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:06:12] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2116L, 'CPU Message': 'OK', 'CPU Used': 4239L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.2', 'FRI': '0.2', 'SAT': '0.6'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:06:20] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2017L, 'CPU Message': 'OK', 'CPU Used': 4216L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2018 22:07:37] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1855L, 'CPU Message': 'OK', 'CPU Used': 5464L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:22:05] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1749L, 'CPU Message': 'OK', 'CPU Used': 5570L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:22:07] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1741L, 'CPU Message': 'OK', 'CPU Used': 5580L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:22:08] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1758L, 'CPU Message': 'OK', 'CPU Used': 5561L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:22:09] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1643L, 'CPU Message': 'OK', 'CPU Used': 5676L}
+INFO:root:{'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:22:14] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2615L, 'CPU Message': 'OK', 'CPU Used': 4810L}
+INFO:root:{'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:29:00] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2513L, 'CPU Message': 'OK', 'CPU Used': 4912L}
+INFO:root:{'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:29:04] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2534L, 'CPU Message': 'OK', 'CPU Used': 4890L}
+INFO:root:{'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:29:24] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2902L, 'CPU Message': 'OK', 'CPU Used': 4521L}
+INFO:root:{'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 11:30:56] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2890L, 'CPU Message': 'OK', 'CPU Used': 4459L}
+INFO:root:{'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 13:46:29] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2590L, 'CPU Message': 'OK', 'CPU Used': 4681L}
+INFO:root:{'Health': 'Healthy', 'CPU': {'UnUsed': 1947, 'Used': 2053, 'Total': 4000}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:15:52] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2512L, 'CPU Message': 'OK', 'CPU Used': 4768L}
+INFO:root:{'CPUcurrent': {'UnUsed': 1947, 'Used': 2053, 'Total': 4000}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:16:22] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2729L, 'CPU Message': 'OK', 'CPU Used': 4438L}
+INFO:root:{'CPUcurrent': {'UnUsed': 1947, 'Used': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:28:41] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2672L, 'CPU Message': 'OK', 'CPU Used': 4495L}
+INFO:root:{'CPUcurrent': {'UnUsed': 1947, 'Used': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:29:08] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2422L, 'CPU Message': 'OK', 'CPU Used': 4744L}
+INFO:root:{'CPUcurrent': {'UnUsed': 1947, 'Used': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:29:38] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2561L, 'CPU Message': 'OK', 'CPU Used': 4606L}
+INFO:root:{'CPUcurrent': {'UnUsed': 1947, 'Used': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:31:13] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2499L, 'CPU Message': 'OK', 'CPU Used': 4668L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 14:32:31] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3598L, 'CPU Message': 'OK', 'CPU Used': 3555L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:31:16] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3065L, 'CPU Message': 'OK', 'CPU Used': 4025L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:31:45] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2782L, 'CPU Message': 'OK', 'CPU Used': 4363L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:45:23] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2687L, 'CPU Message': 'OK', 'CPU Used': 4458L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:45:41] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2725L, 'CPU Message': 'OK', 'CPU Used': 4418L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:46:04] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2678L, 'CPU Message': 'OK', 'CPU Used': 4453L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:47:00] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2629L, 'CPU Message': 'OK', 'CPU Used': 4502L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:47:06] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2544L, 'CPU Message': 'OK', 'CPU Used': 4596L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:47:44] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2544L, 'CPU Message': 'OK', 'CPU Used': 4672L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:48:57] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2520L, 'CPU Message': 'OK', 'CPU Used': 4694L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:49:30] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2495L, 'CPU Message': 'OK', 'CPU Used': 4811L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:52:23] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2463L, 'CPU Message': 'OK', 'CPU Used': 4842L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:52:47] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2442L, 'CPU Message': 'OK', 'CPU Used': 4863L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:52:50] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2469L, 'CPU Message': 'OK', 'CPU Used': 4837L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:53:05] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2308L, 'CPU Message': 'OK', 'CPU Used': 4993L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:53:38] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2295L, 'CPU Message': 'OK', 'CPU Used': 5005L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:54:11] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2345L, 'CPU Message': 'OK', 'CPU Used': 4955L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:54:41] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2313L, 'CPU Message': 'OK', 'CPU Used': 4987L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:54:53] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2312L, 'CPU Message': 'OK', 'CPU Used': 4988L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:54:59] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2242L, 'CPU Message': 'OK', 'CPU Used': 5059L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:56:43] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2282L, 'CPU Message': 'OK', 'CPU Used': 5020L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:56:58] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2290L, 'CPU Message': 'OK', 'CPU Used': 5012L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:57:57] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2238L, 'CPU Message': 'OK', 'CPU Used': 5064L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:58:05] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2243L, 'CPU Message': 'OK', 'CPU Used': 5059L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:58:12] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2336L, 'CPU Message': 'OK', 'CPU Used': 4970L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Emergency', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:59:14] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2339L, 'CPU Message': 'OK', 'CPU Used': 4966L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Emergency', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:59:18] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2331L, 'CPU Message': 'OK', 'CPU Used': 4974L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Emergency', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:59:21] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2324L, 'CPU Message': 'OK', 'CPU Used': 4981L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2018 20:59:35] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1919L, 'CPU Message': 'OK', 'CPU Used': 4939L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2018 19:16:33] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1287L, 'CPU Message': 'OK', 'CPU Used': 5637L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 918L, 'CPU Message': 'OK', 'CPU Used': 6100L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 909L, 'CPU Message': 'OK', 'CPU Used': 6105L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 908L, 'CPU Message': 'OK', 'CPU Used': 6105L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 910L, 'CPU Message': 'OK', 'CPU Used': 6102L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 903L, 'CPU Message': 'OK', 'CPU Used': 6109L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2646L, 'CPU Message': 'OK', 'CPU Used': 4414L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2643L, 'CPU Message': 'OK', 'CPU Used': 4417L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2634L, 'CPU Message': 'OK', 'CPU Used': 4426L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2635L, 'CPU Message': 'OK', 'CPU Used': 4425L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2630L, 'CPU Message': 'OK', 'CPU Used': 4430L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2726L, 'CPU Message': 'OK', 'CPU Used': 4169L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2412L, 'CPU Message': 'OK', 'CPU Used': 4396L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2404L, 'CPU Message': 'OK', 'CPU Used': 4404L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2359L, 'CPU Message': 'OK', 'CPU Used': 4447L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:[suser(name='deanoreilly', terminal='console', host=None, started=1541716096.0, pid=91), suser(name='deanoreilly', terminal='ttys000', host=None, started=1541716096.0, pid=491), suser(name='deanoreilly', terminal='ttys001', host=None, started=1541716096.0, pid=507)]
+DEBUG:root:<type 'list'>
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2348L, 'CPU Message': 'OK', 'CPU Used': 4461L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:deanoreilly console  Nov  8 22:28 
+deanoreilly ttys000  Nov  8 22:29 
+deanoreilly ttys001  Nov  8 22:29 
+
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2341L, 'CPU Message': 'OK', 'CPU Used': 4469L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:deanoreilly console  Nov  8 22:28 
+deanoreilly ttys000  Nov  8 22:29 
+deanoreilly ttys001  Nov  8 22:29 
+
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2535L, 'CPU Message': 'OK', 'CPU Used': 4294L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2523L, 'CPU Message': 'OK', 'CPU Used': 4306L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2518L, 'CPU Message': 'OK', 'CPU Used': 4312L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2512L, 'CPU Message': 'OK', 'CPU Used': 4317L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2510L, 'CPU Message': 'OK', 'CPU Used': 4320L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2498L, 'CPU Message': 'OK', 'CPU Used': 4330L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2566L, 'CPU Message': 'OK', 'CPU Used': 4261L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2540L, 'CPU Message': 'OK', 'CPU Used': 4238L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2541L, 'CPU Message': 'OK', 'CPU Used': 4237L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2543L, 'CPU Message': 'OK', 'CPU Used': 4234L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2169L, 'CPU Message': 'OK', 'CPU Used': 4007L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2161L, 'CPU Message': 'OK', 'CPU Used': 4016L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2202L, 'CPU Message': 'OK', 'CPU Used': 3938L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2181L, 'CPU Message': 'OK', 'CPU Used': 3997L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2172L, 'CPU Message': 'OK', 'CPU Used': 4007L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2155L, 'CPU Message': 'OK', 'CPU Used': 4023L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2365L, 'CPU Message': 'OK', 'CPU Used': 4030L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2362L, 'CPU Message': 'OK', 'CPU Used': 4033L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2273L, 'CPU Message': 'OK', 'CPU Used': 4148L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2284L, 'CPU Message': 'OK', 'CPU Used': 4138L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2217L, 'CPU Message': 'OK', 'CPU Used': 4208L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2209L, 'CPU Message': 'OK', 'CPU Used': 4217L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2195L, 'CPU Message': 'OK', 'CPU Used': 4234L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2190L, 'CPU Message': 'OK', 'CPU Used': 4240L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2308L, 'CPU Message': 'OK', 'CPU Used': 4107L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2308L, 'CPU Message': 'OK', 'CPU Used': 4108L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2350L, 'CPU Message': 'OK', 'CPU Used': 4051L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2359L, 'CPU Message': 'OK', 'CPU Used': 4043L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2352L, 'CPU Message': 'OK', 'CPU Used': 4053L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2343L, 'CPU Message': 'OK', 'CPU Used': 4057L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2284L, 'CPU Message': 'OK', 'CPU Used': 4077L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2248L, 'CPU Message': 'OK', 'CPU Used': 4113L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2246L, 'CPU Message': 'OK', 'CPU Used': 4117L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2242L, 'CPU Message': 'OK', 'CPU Used': 4121L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2343L, 'CPU Message': 'OK', 'CPU Used': 4040L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+INFO:root:{'TIMES': ['22:28', '22:29', '22:29'], 'USERS': ['deanoreilly', 'deanoreilly', 'deanoreilly'], 'LOCATIONS': ['console', 'ttys000', 'ttys001']}
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2323L, 'CPU Message': 'OK', 'CPU Used': 4041L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2213L, 'CPU Message': 'OK', 'CPU Used': 3995L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2018 21:59:54] "GET /update HTTP/1.1" 200 -
+INFO:root:['deanoreilly console  Nov  8 22:28 ', 'deanoreilly ttys000  Nov  8 22:29 ', 'deanoreilly ttys001  Nov  8 22:29 ']
+INFO:root:{'TIMES': ['22:28', '22:29', '22:29'], 'USERS': ['deanoreilly', 'deanoreilly', 'deanoreilly'], 'LOCATIONS': ['console', 'ttys000', 'ttys001']}
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2018 22:00:02] "GET /users HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2963L, 'CPU Message': 'OK', 'CPU Used': 4632L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2018 15:15:02] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3003L, 'CPU Message': 'OK', 'CPU Used': 4589L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2018 15:15:13] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1524L, 'CPU Message': 'OK', 'CPU Used': 3713L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2019 19:59:52] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1887L, 'CPU Message': 'OK', 'CPU Used': 3668L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2019 20:06:17] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1856L, 'CPU Message': 'OK', 'CPU Used': 3801L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2019 20:10:00] "GET /update HTTP/1.1" 200 -
