@@ -914,3 +914,27 @@ INFO:werkzeug:127.0.0.1 - - [07/Mar/2019 20:06:17] "GET /update HTTP/1.1" 200 -
 DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 1856L, 'CPU Message': 'OK', 'CPU Used': 3801L}
 INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
 INFO:werkzeug:127.0.0.1 - - [07/Mar/2019 20:10:00] "GET /update HTTP/1.1" 200 -
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2249L, 'CPU Message': 'OK', 'CPU Used': 3951L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2019 20:23:12] "GET /update HTTP/1.1" 200 -
+DEBUG:root:Controller - Main Invoked - 200
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3691L, 'CPU Message': 'OK', 'CPU Used': 3466L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3057L, 'CPU Message': 'OK', 'CPU Used': 4110L}
+INFO:root:{'CPUcurrent': {'UnUsed MB': 1947, 'Used MB': 2053}, 'Health': 'Healthy', 'CPU': {'WED': '0.4', 'SUN': '0.1', 'THU': '0.7', 'TUE': '0.8', 'MON': '0.3', 'FRI': '0.8', 'SAT': '0.9'}}
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:35:55] "GET /update HTTP/1.1" 200 -
+INFO:root:['deanoreilly console  Feb 27 17:46 ']
+INFO:root:{'TIMES': ['17:46'], 'USERS': ['deanoreilly'], 'LOCATIONS': ['console']}
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:39:32] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 3005L, 'CPU Message': 'OK', 'CPU Used': 4176L}
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:00:01] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 0L, 'CPU Available': 0L, 'CPU Message': 'OK', 'CPU Used': 0L}
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:00:58] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8388608L, 'CPU Available': 2990L, 'CPU Message': 'OK', 'CPU Used': 4192L}
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:01:11] "GET /update HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/deanoreilly/PycharmProjects/MointoringProject/backend.py', reloading
+DEBUG:root:{'CPU Total': 8192L, 'CPU Available': 2952L, 'CPU Message': 'OK', 'CPU Used': 4230L}
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:01:42] "GET /update HTTP/1.1" 200 -

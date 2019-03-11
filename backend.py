@@ -49,7 +49,7 @@ def getLocalCPUlevels():
     MemoryUsage=psutil.virtual_memory()
     THRESHOLD = 100 * 1024 * 1024
     CPUAvail = MemoryUsage.available >> 20
-    CPUTotal = MemoryUsage.total >>10
+    CPUTotal = MemoryUsage.total >>20
     CPUused = MemoryUsage.used >>20
     if MemoryUsage.available <= THRESHOLD:
         alert()
@@ -66,7 +66,7 @@ def getLocalCPUlevels():
         data['CPU Used'] = CPUused
         data['CPU Message'] = 'OK'
         logger.debug(data)
-        data = returnSampleData()  # Sample Data - Remove if needed
+        #data = returnSampleData()  # Sample Data - Remove if needed
         return data
 
 
